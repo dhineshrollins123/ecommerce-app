@@ -48,7 +48,7 @@ const Cart = () => {
 					onClick={() => setShowCart(false)}
           ref={ref}
 				>
-					<AiOutlineLeft />
+					<AiOutlineLeft style={{marginLeft: "30px"}} />
 					<span className="heading">Your Cart</span>
 					<span className="cart-num-items">({totalQuantity} items)</span>
 				</button>
